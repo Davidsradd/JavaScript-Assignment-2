@@ -1,6 +1,6 @@
 //switch
 
-var greatestBasketballPlayer = prompt ("Who is the greatest basketball player of all time?");
+var greatestBasketballPlayer = prompt ("What is the full name of the greatest basketball player of all time?");
 
 switch(greatestBasketballPlayer){
     case "Kobe Bryant":
@@ -20,7 +20,6 @@ switch(greatestBasketballPlayer){
 function display(name)
 {
     alert(" Hello " + name);
-    return
 }
 
 //call function /pass info into function
@@ -29,11 +28,10 @@ display("David");
 
 //return data from a function
 
-function setup(){
-    var inches = feetToinches(36);
+function subtractNumbers (a, b){
+    var subtractionResult= a -b;
+    return subtractionResult;
 }
 
-function feetToinches(feet){
-    var inches = feet * 12;
-    return inches;
-}
+var subtractNumbers2= subtractNumbers(28,4);
+alert(subtractNumbers2);
